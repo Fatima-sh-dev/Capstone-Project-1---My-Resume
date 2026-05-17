@@ -4,7 +4,7 @@
 }
 
 div.container {
-    padding: 0 50px;
+    padding: 0 300px;
     box-sizing: border-box;
 
     div.introduction {
@@ -56,4 +56,46 @@ div.container {
             text-align: justify;
         }
     }
+
+    div.Berufserfahrung {
+        width: 100%;
+        margin-top: 40px;
+
+        h2 {
+            font-size: large;
+            margin-bottom: 5px;
+        }
+
+        div.jobs {
+            width: 100%;
+            margin-top: 7px;
+            display: flex;
+            flex-flow: column;
+            gap: 10px;
+
+            div.one {
+                width: 100%;
+                display: flex;
+                flex-flow: row;
+
+                &:nth-of-type(2) {
+
+                    margin-top: 20px;
+                }
+
+                .year {
+                    font-size: 20px;
+                    width: 10%;
+                }
+
+                .arbeit {
+                    width: 90%;
+                    font-size: 19px;
+
+                }
+
+            }
+        }
+    }
+
 }
