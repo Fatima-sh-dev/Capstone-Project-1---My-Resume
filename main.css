@@ -71,7 +71,7 @@ div.container {
             margin-top: 7px;
             display: flex;
             flex-flow: column;
-            gap: 10px;
+            gap: 15px;
 
             div.one {
                 width: 100%;
@@ -80,11 +80,11 @@ div.container {
 
                 .year {
                     font-size: 20px;
-                    width: 10%;
+                    width: 20%;
                 }
 
                 .arbeit {
-                    width: 90%;
+                    width: 80%;
                     font-size: 19px;
 
                 }
@@ -107,7 +107,7 @@ div.container {
             margin-top: 7px;
             display: flex;
             flex-flow: column;
-            gap: 10px;
+            gap: 15px;
 
             div.one {
                 width: 100%;
@@ -116,11 +116,11 @@ div.container {
 
                 .year {
                     font-size: 20px;
-                    width: 10%;
+                    width: 20%;
                 }
 
                 .project {
-                    width: 90%;
+                    width: 80%;
                     font-size: 19px;
 
                     a {
@@ -159,11 +159,11 @@ div.container {
 
                 .year {
                     font-size: 20px;
-                    width: 10%;
+                    width: 20%;
                 }
 
                 .field {
-                    width: 90%;
+                    width: 80%;
                     font-size: 19px;
 
                     p {
@@ -176,4 +176,78 @@ div.container {
             }
         }
     }
+
+    div.Zertifikate {
+        width: 100%;
+        margin-top: 40px;
+
+        h2 {
+            font-size: large;
+            margin-bottom: 5px;
+        }
+
+        div.certificates {
+            width: 100%;
+            margin-top: 7px;
+            display: flex;
+            flex-flow: column;
+            gap: 15px;
+
+            div.one {
+                width: 100%;
+                display: flex;
+                flex-flow: row;
+
+                .year {
+                    font-size: 20px;
+                    width: 20%;
+                }
+
+                .certificate {
+                    width: 80%;
+                    font-size: 19px;
+
+                    ul {}
+                }
+
+            }
+        }
+    }
+
+    div.Technische {
+        width: 100%;
+        margin-top: 40px;
+
+        h2 {
+            font-size: large;
+            margin-bottom: 5px;
+        }
+
+        div.techniques {
+            width: 100%;
+            margin-top: 7px;
+            display: flex;
+            flex-flow: column;
+            gap: 15px;
+
+            div.one {
+                width: 100%;
+                display: flex;
+                flex-flow: row;
+                justify-content: right;
+
+
+                .technique {
+                    width: 80%;
+                    font-size: 19px;
+
+
+                }
+
+            }
+        }
+    }
+
+
+
 }
