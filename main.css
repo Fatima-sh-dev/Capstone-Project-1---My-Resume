@@ -4,7 +4,7 @@
 }
 
 div.container {
-    padding: 0 300px;
+    padding: 30px 300px 100px 300px;
     box-sizing: border-box;
 
     div.introduction {
@@ -238,6 +238,40 @@ div.container {
 
 
                 .technique {
+                    width: 80%;
+                    font-size: 19px;
+
+
+                }
+
+            }
+        }
+    }
+
+    div.info {
+        width: 100%;
+        margin-top: 40px;
+
+        h2 {
+            font-size: large;
+            margin-bottom: 5px;
+        }
+
+        div.Sprachen {
+            width: 100%;
+            margin-top: 7px;
+            display: flex;
+            flex-flow: column;
+            gap: 15px;
+
+            div.one {
+                width: 100%;
+                display: flex;
+                flex-flow: row;
+                justify-content: right;
+
+
+                .language {
                     width: 80%;
                     font-size: 19px;
 
