@@ -122,6 +122,12 @@ div.container {
                 .project {
                     width: 90%;
                     font-size: 19px;
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        
+                    }
 
                 }
 
